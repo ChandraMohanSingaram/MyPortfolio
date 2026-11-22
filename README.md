@@ -1,28 +1,33 @@
-# MyPortfolio
-AI-Driven QA Automation Engineer portfolio showcasing agentic testing workflows, LLM-assisted test generation, and scalable automation frameworks built with Playwright, TypeScript, Selenium, and Java.
+# QA Automation Portfolio
 
+Welcome to my software test automation portfolio. This index showcases hands-on
+projects that demonstrate my experience in designing, implementing, and
+maintaining automated test solutions.
 
- [PlaywrightJavaProject](https://github.com/ChandraMohanSingaram/PlaywrightJavaProject) repository:
+I am an automation test engineer focused on building reliable, maintainable, and
+scalable test frameworks using Java, Playwright, Selenium, TestNG, Maven, and
+related quality engineering tools.
 
----
+## Portfolio Projects
 
-### ** 1.Playwright Java Test Automation Framework**
+### 1. Playwright Java Test Automation Framework
 
-**Overview**
+**Repository:** [PlaywrightJavaProject](https://github.com/ChandraMohanSingaram/PlaywrightJavaProject)
 
-A scalable, end-to-end UI test automation framework built using **Playwright** and **Java**, structured around the **Page Object Model (POM)** design pattern and managed with **Maven** (`pom.xml`) and **TestNG** (`testng.xml`). Designed for maintainability, fast execution, and clear separation between test logic and page interactions.
+**Description**
 
-**Key Highlights & Architecture**
+A Java-based browser automation framework using Playwright, TestNG, Maven, and
+the Page Object Model (POM). The project demonstrates maintainable test
+organization, browser lifecycle management, reusable page actions, stable
+locators, assertions, and local and external UI test scenarios.
 
-* **Page Object Model (POM) Design:** Encapsulates web elements and page-level interactions into modular, reusable page classes (documented with dedicated architecture guides in `PAGE_OBJECT_PATTERN.md` and `PAGEOBJECT_SUMMARY.md`).
-* **Test Execution & Suite Management:** Integrated with **TestNG** (`testng.xml`) for flexible test suite configuration, grouping, and execution control, backed by **Maven** (`pom.xml`) for dependency and build lifecycle management.
-* **Automated Visual Debugging:** Configured with built-in screenshot capture (`screenshots/`) to aid in rapid failure analysis and test reporting.
-* **AI-Assisted & Agentic Workflow Ready:** Structured with `.github` configurations to support modern development workflows and automated test/page-object generation.
+**Key Highlights**
 
-**Tech Stack:** `Java` • `Playwright` • `TestNG` • `Maven` • `Page Object Model (POM)`
+- Page Object Model for reusable and maintainable UI interactions
+- Java 11, Playwright for Java, TestNG, and Maven
+- Chromium browser automation in headless mode
+- Local practice-page tests and Google UI smoke tests
+- TestNG HTML/XML reporting
+- Optional Extent Reports integration
+- Screenshot support for visual debugging
 
----
-
-### **Short Version (For Resume / Portfolio Summary Card)**
-
-> **Playwright Java Automation Framework** — Designed and built a modular end-to-end UI automation framework using Playwright, Java, TestNG, and Maven. Implemented the Page Object Model (POM) design pattern with automated screenshot capture for failure diagnostics and comprehensive architectural documentation.
